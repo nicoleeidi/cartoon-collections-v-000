@@ -10,6 +10,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |name|
     capname=name[0].upcase 
     capname << "!"
+    binding.pry
   end
 end
 
