@@ -1,4 +1,4 @@
-
+require 'pry'
 def roll_call_dwarves(array1)
 
   array1.each_with_index do |name,i|
@@ -8,7 +8,7 @@ end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |name|
-    capname=name[0].upcase 
+    capname=name[0].upcase
     capname << "!"
     binding.pry
   end
