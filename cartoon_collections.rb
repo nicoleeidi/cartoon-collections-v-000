@@ -8,7 +8,8 @@ end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |name|
-    name[0].upcase <<"!"
+    capname=name[0].upcase 
+    capname << "!"
   end
 end
 
