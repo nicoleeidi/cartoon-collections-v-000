@@ -2,13 +2,13 @@ array1=["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(array1)
 
   array1.each_with_index do |name,i|
-    puts "#{i} #{name}" 
+    puts "#{i} #{name}"
   end
 end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |name|
-    name.titleize<<"!"
+    name.titleize <<"!"
   end
 end
 
