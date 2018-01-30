@@ -1,4 +1,4 @@
-array1=["Doc", "Dopey", "Bashful", "Grumpy"]
+
 def roll_call_dwarves(array1)
 
   array1.each_with_index do |name,i|
